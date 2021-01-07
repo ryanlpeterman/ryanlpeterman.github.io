@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technical Posts on Ryan Peterman</title>
-    <link>https://www.ryanlpeterman.dev/series/technical-posts/</link>
+    <link>https://www.ryanlpeterman.github.io/series/technical-posts/</link>
     <description>Recent content in Technical Posts on Ryan Peterman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 04 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ryanlpeterman.dev/series/technical-posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ryanlpeterman.github.io/series/technical-posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Technical Writing for Instagram</title>
-      <link>https://www.ryanlpeterman.dev/posts/2020/01/technical-writing-for-instagram/</link>
+      <link>https://www.ryanlpeterman.github.io/posts/2020/01/technical-writing-for-instagram/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ryanlpeterman.dev/posts/2020/01/technical-writing-for-instagram/</guid>
+      <guid>https://www.ryanlpeterman.github.io/posts/2020/01/technical-writing-for-instagram/</guid>
       <description>Back in 2019, I wrote this post about some of the work my team and I are doing. If you&amp;rsquo;re interested feel free to give it a read!</description>
     </item>
     
