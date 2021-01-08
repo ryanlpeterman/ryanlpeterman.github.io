@@ -3,58 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.ryanlpeterman.github.io/categories/</loc>
+    <loc>https://ryanlpeterman.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ryanlpeterman.github.io/fr/categories/"
+                href="https://ryanlpeterman.github.io/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.ryanlpeterman.github.io/categories/"
+                href="https://ryanlpeterman.github.io/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ryanlpeterman.github.io/</loc>
+    <loc>https://ryanlpeterman.github.io/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ryanlpeterman.github.io/fr/"
+                href="https://ryanlpeterman.github.io/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.ryanlpeterman.github.io/"
+                href="https://ryanlpeterman.github.io/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ryanlpeterman.github.io/series/</loc>
+    <loc>https://ryanlpeterman.github.io/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ryanlpeterman.github.io/fr/series/"
+                href="https://ryanlpeterman.github.io/fr/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.ryanlpeterman.github.io/series/"
+                href="https://ryanlpeterman.github.io/series/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ryanlpeterman.github.io/tags/</loc>
+    <loc>https://ryanlpeterman.github.io/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ryanlpeterman.github.io/fr/tags/"
+                href="https://ryanlpeterman.github.io/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.ryanlpeterman.github.io/tags/"
+                href="https://ryanlpeterman.github.io/tags/"
                 />
   </url>
   
