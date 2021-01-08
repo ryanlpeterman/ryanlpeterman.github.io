@@ -1,4 +1,4 @@
-baseURL = "https://ryanlpeterman.github.io"
+baseURL = "https://ryanlpeterman.dev"
 title   = "Ryan Peterman"
 languageCode = "en-us"
 theme = "hugo-theme-hello-friend-ng"
