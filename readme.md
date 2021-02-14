@@ -4,7 +4,7 @@ Local Testing:
 hugo server -D
 ```
 
-Static generation:
+Publish:
 ```
 hugo -D
 ```
