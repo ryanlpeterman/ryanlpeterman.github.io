@@ -2,11 +2,11 @@
 author:
   name: "Ryan Peterman"
 date: 2020-01-07
-linktitle: Technical Writing for Instagram
+linktitle: Video Processing Latency Improvements
 type:
 - post
 - posts
-title: Technical Writing for Instagram
+title: Video Processing Latency Improvements
 weight: 10
 series:
 - blog
