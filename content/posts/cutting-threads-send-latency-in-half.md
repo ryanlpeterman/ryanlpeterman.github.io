@@ -2,11 +2,11 @@
 author:
   name: "Ryan Peterman"
 date: 2021-03-22
-linktitle: Cutting Threads Send Latency in Half
+linktitle: Cutting Threads' Send Latency in Half
 type:
 - post
 - posts
-title: Cutting Threads Send Latency in Half
+title: Cutting Threads' Send Latency in Half
 weight: 10
 series:
 - blog
