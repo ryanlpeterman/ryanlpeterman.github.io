@@ -36,11 +36,11 @@ These engineers optimized for opportunity in a few ways. They developed organiza
 
 **Infrastructure Engineers:**
 
-These infrastructure engineers all solved high-leverage problems which improved large parts of the engineering organization. Making drastic improvements to developer tooling or solving problems in underlying infrastructure every engineer uses has a huge compounding effect.
+These infrastructure engineers all solved high-leverage problems which improved large parts of the engineering organization. They had a huge compounding effect by making drastic improvements to developer tooling or solving problems in the underlying infrastructure every engineer uses.
 
-These infrastructure engineers seemed to have the most agency in creating opportunities. Across the board, each engineer champions the quote “code wins arguments”. Prototyping and proving their ideas allowed them to create opportunities. None of them mean this as a way to solve problems single-handedly, but use it as a tool to get consensus. One of the engineers substantiates this concisely by saying: “If you want to go fast, go alone. If you want to go far, go together”.
+These infrastructure engineers seemed to have the most agency in creating opportunities. Across the board, each engineer champions the quote “code wins arguments”. Prototyping and proving their ideas allowed them to create opportunities. None of them mean this as a way to solve problems single-handedly, but use it as a tool to get consensus. One of the engineers summarizes this by saying: “If you want to go fast, go alone. If you want to go far, go together”.
 
-These engineers optimized for opportunity by putting themselves in a position to get lucky. They were proactive in chasing the top problems for the engineering organization. Oftentimes, these engineers worked on these problems outside of their team's scope with their spare time. Aside from being proactive, they also invested into continuing their engineering education. They would pair with domain experts and read famous engineering texts to chase new high-leverage problems.
+These engineers optimized for opportunity by putting themselves in a position to get lucky. They were proactive in chasing the top problems for the engineering organization. Oftentimes, these engineers worked on these problems outside of their team's scope with their spare time. Aside from being proactive, they also invested into continuing their engineering education. They would pair with domain experts and read technical books to learn skills needed to chase new high-leverage problems.
 
 **Summary and recommendations:**
 
