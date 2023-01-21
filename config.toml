@@ -67,7 +67,7 @@ disableHugoGeneratorInject = false
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   #
-  disableReadOtherPosts = false
+  disableReadOtherPosts = true
 
   # Sharing buttons
   #
@@ -75,7 +75,7 @@ disableHugoGeneratorInject = false
   # generate the buttons here: https://sharingbuttons.io
   # and add them into your own `layouts/partials/sharing-buttons.html`
   #
-  enableSharingButtons = true
+  enableSharingButtons = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -126,14 +126,6 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "twitter"
     url  = "https://twitter.com/ryanlpeterman"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:ryanlpeterman@gmail.com"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/ryanlpeterman"
 
   [[params.social]]
     name = "linkedin"
