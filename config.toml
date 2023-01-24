@@ -135,14 +135,12 @@ disableHugoGeneratorInject = false
     name = "medium"
     url  = "https://medium.com/@ryanlpeterman"
 
+  [[params.social]]
+    name = "email"
+    url  = "https://ryanlpeterman.substack.com/"
+
 [languages]
   [languages.en]
     subtitle  = ""
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
