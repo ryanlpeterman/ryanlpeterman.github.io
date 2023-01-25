@@ -136,7 +136,7 @@ disableHugoGeneratorInject = false
     url  = "https://medium.com/@ryanlpeterman"
 
   [[params.social]]
-    name = "email"
+    name = "substack"
     url  = "https://ryanlpeterman.substack.com/"
 
 [languages]
