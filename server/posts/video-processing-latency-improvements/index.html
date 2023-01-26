@@ -5,16 +5,16 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="map[name:Ryan Peterman]">
-<meta name="description" content="Had a lot of fun partnering with the ads org on optimizing the performance of video ads, which had been neglected for some time. If you&amp;rsquo;re interested in reading about how we reduced memory errors 98% and drove a 3.9% increase in watch time, check out the blog post here." />
+<meta name="description" content="I did some technical writing at work. If you&amp;rsquo;re interested in reading about some of the work my team does check out the post here" />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="#252627" />
-<link rel="canonical" href="https://www.ryanlpeterman.dev/posts/making-instagram-video-ads-performant/" />
+<link rel="canonical" href="https://www.ryanlpeterman.dev/posts/video-processing-latency-improvements/" />
 
 
     <title>
         
-            Making Instagram Video Ads Performant :: Ryan Peterman 
+            Video Processing Latency Improvements :: Ryan Peterman 
         
     </title>
 
@@ -38,26 +38,26 @@
     <meta name="msapplication-TileColor" content="">
 
 
-<meta itemprop="name" content="Making Instagram Video Ads Performant">
-<meta itemprop="description" content="Had a lot of fun partnering with the ads org on optimizing the performance of video ads, which had been neglected for some time. If you&rsquo;re interested in reading about how we reduced memory errors 98% and drove a 3.9% increase in watch time, check out the blog post here."><meta itemprop="datePublished" content="2021-11-01T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2021-11-01T00:00:00+00:00" />
-<meta itemprop="wordCount" content="50"><meta itemprop="image" content="https://www.ryanlpeterman.dev"/>
+<meta itemprop="name" content="Video Processing Latency Improvements">
+<meta itemprop="description" content="I did some technical writing at work. If you&rsquo;re interested in reading about some of the work my team does check out the post here"><meta itemprop="datePublished" content="2020-01-07T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-01-07T00:00:00+00:00" />
+<meta itemprop="wordCount" content="25"><meta itemprop="image" content="https://www.ryanlpeterman.dev"/>
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://www.ryanlpeterman.dev"/>
 
-<meta name="twitter:title" content="Making Instagram Video Ads Performant"/>
-<meta name="twitter:description" content="Had a lot of fun partnering with the ads org on optimizing the performance of video ads, which had been neglected for some time. If you&rsquo;re interested in reading about how we reduced memory errors 98% and drove a 3.9% increase in watch time, check out the blog post here."/>
+<meta name="twitter:title" content="Video Processing Latency Improvements"/>
+<meta name="twitter:description" content="I did some technical writing at work. If you&rsquo;re interested in reading about some of the work my team does check out the post here"/>
 
 
 
-    <meta property="og:title" content="Making Instagram Video Ads Performant" />
-<meta property="og:description" content="Had a lot of fun partnering with the ads org on optimizing the performance of video ads, which had been neglected for some time. If you&rsquo;re interested in reading about how we reduced memory errors 98% and drove a 3.9% increase in watch time, check out the blog post here." />
+    <meta property="og:title" content="Video Processing Latency Improvements" />
+<meta property="og:description" content="I did some technical writing at work. If you&rsquo;re interested in reading about some of the work my team does check out the post here" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.ryanlpeterman.dev/posts/making-instagram-video-ads-performant/" /><meta property="og:image" content="https://www.ryanlpeterman.dev"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-11-01T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-11-01T00:00:00+00:00" />
-<meta property="og:see_also" content="https://www.ryanlpeterman.dev/posts/optimizing-for-opportunity/" /><meta property="og:see_also" content="https://www.ryanlpeterman.dev/posts/reducing-instagrams-basic-video-compute-time-by-94-percent/" /><meta property="og:see_also" content="https://www.ryanlpeterman.dev/posts/cutting-threads-send-latency-in-half/" /><meta property="og:see_also" content="https://www.ryanlpeterman.dev/posts/video-processing-latency-improvements/" />
+<meta property="og:url" content="https://www.ryanlpeterman.dev/posts/video-processing-latency-improvements/" /><meta property="og:image" content="https://www.ryanlpeterman.dev"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-01-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-07T00:00:00+00:00" />
+<meta property="og:see_also" content="https://www.ryanlpeterman.dev/posts/optimizing-for-opportunity/" /><meta property="og:see_also" content="https://www.ryanlpeterman.dev/posts/reducing-instagrams-basic-video-compute-time-by-94-percent/" /><meta property="og:see_also" content="https://www.ryanlpeterman.dev/posts/making-instagram-video-ads-performant/" /><meta property="og:see_also" content="https://www.ryanlpeterman.dev/posts/cutting-threads-send-latency-in-half/" />
 
 
 
@@ -65,7 +65,7 @@
 
 
 
-    <meta property="article:published_time" content="2021-11-01 00:00:00 &#43;0000 UTC" />
+    <meta property="article:published_time" content="2020-01-07 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -116,7 +116,7 @@ if (!doNotTrack) {
         <span class="header__right">
             
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="https://www.ryanlpeterman.dev/notables/">Notables</a></li><li><a href="https://www.ryanlpeterman.dev/posts/">Posts</a></li>
+    <ul class="menu__inner"><li><a href="https://www.ryanlpeterman.dev/posts/">Posts</a></li>
     </ul>
 </nav>
 
@@ -150,7 +150,7 @@ if (!doNotTrack) {
 
     <article>
       <h1 class="post-title">
-        <a href="https://www.ryanlpeterman.dev/posts/making-instagram-video-ads-performant/">Making Instagram Video Ads Performant</a>
+        <a href="https://www.ryanlpeterman.dev/posts/video-processing-latency-improvements/">Video Processing Latency Improvements</a>
       </h1>
 
       
@@ -160,7 +160,7 @@ if (!doNotTrack) {
       
 
       <div class="post-content">
-        <p>Had a lot of fun partnering with the ads org on optimizing the performance of video ads, which had been neglected for some time. If you&rsquo;re interested in reading about how we reduced memory errors 98% and drove a 3.9% increase in watch time, <a href="https://about.instagram.com/blog/engineering/making-instagram-video-ads-performant">check out the blog post here</a>.</p>
+        <p>I did some technical writing at work. If you&rsquo;re interested in reading about some of the work my team does <a href="https://instagram-engineering.com/video-upload-latency-improvements-at-instagram-bcf4b4c5520a">check out the post here</a></p>
 
       </div>
     </article>
@@ -179,7 +179,7 @@ if (!doNotTrack) {
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        50 Words
+        25 Words
       </p>
 
       <p>
@@ -190,7 +190,7 @@ if (!doNotTrack) {
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2021-10-31 17:00
+          2020-01-06 16:00
         
 
          
