@@ -137,7 +137,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "substack"
-    url  = "https://ryanlpeterman.substack.com/"
+    url  = "https://www.developing.dev/"
 
 [languages]
   [languages.en]
