@@ -6,8 +6,27 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 29 Dec 2023 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://www.ryanlpeterman.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Taiwan Recs</title>
+            <link>https://www.ryanlpeterman.dev/posts/taiwan-recs/</link>
+            <pubDate>Fri, 29 Dec 2023 00:00:00 +0000</pubDate>
+            
+            <guid>https://www.ryanlpeterman.dev/posts/taiwan-recs/</guid>
+            <description>Went to Taiwan (Taipei, Tainan, Taroko Gorge, Sun Moon Lake) for 20 days, tried dozens of restaurants and saw all the top sights. Here are the top 3 places I ate at:
+ Best Taiwanese Beef Noodle: Halal Chinese Beef Noodles Best Night Market Food: Fuzhou Pepper Buns (in Raohe night market) Memorable Duck Place: Xiang Duck Taipei  Top destination: Taroko Gorge for sure. It&amp;rsquo;s a national park in Taiwan with unique landscapes.</description>
+            <content type="html"><![CDATA[<p>Went to Taiwan (Taipei, Tainan, Taroko Gorge, Sun Moon Lake) for 20 days, tried dozens of restaurants and saw all the top sights. <strong>Here are the top 3 places I ate at:</strong></p>
+<ul>
+<li><a href="https://maps.app.goo.gl/wzbWzLrj6zpSHMWRA">Best Taiwanese Beef Noodle: Halal Chinese Beef Noodles</a></li>
+<li><a href="https://maps.app.goo.gl/DeiRv6nptDV815cs7">Best Night Market Food: Fuzhou Pepper Buns (in Raohe night market)</a></li>
+<li><a href="https://maps.app.goo.gl/BiBPojSpfcfBvDaZ7">Memorable Duck Place: Xiang Duck Taipei</a></li>
+</ul>
+<p><strong>Top destination:</strong> Taroko Gorge for sure. It&rsquo;s a national park in Taiwan with unique landscapes. We rented e-bikes from Hualien and biked up to it. We also stayed at an upscale hotel inside the park called <a href="https://maps.app.goo.gl/28RiiP5aS56e9E3W7">&ldquo;Silk&rsquo;s Place&rdquo;</a>. Highly recommend staying there if you don&rsquo;t mind the price.</p>
+<p><strong>Honorable food mention:</strong> If you like Taiwanese beef noodle soup, there&rsquo;s a great place called <a href="https://maps.app.goo.gl/KoV7vhPyjEafpCz69">Yongkang Beef Noodles</a> which has super rich broth. Some people say it&rsquo;s a tourist trap, I say it&rsquo;s delicious.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Reducing Instagram’s basic video compute time by 94 percent</title>
