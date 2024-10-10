@@ -9,6 +9,11 @@ Publish:
 ```
 hugo -D
 ```
+If first time installing make sure to also init submodule too:
+```
+git submodule init
+git submodule update
+```
 
 Notes:
 * brew install hugo if not available on local

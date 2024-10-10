@@ -150,3 +150,8 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+
+  [[menu.main]]
+    identifier = "travel"
+    name       = "Travel Recs"
+    url        = "https://docs.google.com/document/d/1NDrXulRFSwLN1vn-Eed-phNCkZ2mRsFdERlXtoCvyI0/"
