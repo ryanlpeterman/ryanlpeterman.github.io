@@ -2,35 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/taiwan-recs/</loc>
-    <lastmod>2023-12-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/reducing-instagrams-basic-video-compute-time-by-94-percent/</loc>
+    <loc>https://www.ryanlpeterman.dev/posts/reducing-instagrams-basic-video-compute-time-by-94-percent/</loc>
     <lastmod>2022-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/making-instagram-video-ads-performant/</loc>
+    <loc>https://www.ryanlpeterman.dev/posts/making-instagram-video-ads-performant/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cutting-threads-send-latency-in-half/</loc>
+    <loc>https://www.ryanlpeterman.dev/posts/cutting-threads-send-latency-in-half/</loc>
     <lastmod>2021-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/video-processing-latency-improvements/</loc>
+    <loc>https://www.ryanlpeterman.dev/posts/why-write/</loc>
+    <lastmod>2021-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanlpeterman.dev/posts/video-processing-latency-improvements/</loc>
     <lastmod>2020-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/blog/</loc>
-    <lastmod>2023-12-29T00:00:00+00:00</lastmod>
+    <loc>https://www.ryanlpeterman.dev/series/blog/</loc>
+    <lastmod>2022-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2023-12-29T00:00:00+00:00</lastmod>
+    <loc>https://www.ryanlpeterman.dev/posts/</loc>
+    <lastmod>2022-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2023-12-29T00:00:00+00:00</lastmod>
+    <loc>https://www.ryanlpeterman.dev/</loc>
+    <lastmod>2022-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
-    <lastmod>2023-12-29T00:00:00+00:00</lastmod>
+    <loc>https://www.ryanlpeterman.dev/series/</loc>
+    <lastmod>2022-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://www.ryanlpeterman.dev/series/write/</loc>
+    <lastmod>2021-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://www.ryanlpeterman.dev/categories/</loc>
+  </url><url>
+    <loc>https://www.ryanlpeterman.dev/tags/</loc>
   </url>
 </urlset>
