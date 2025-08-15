@@ -3,8 +3,37 @@ export default function HomePage() {
     <main aria-role="main">
       <div>
         <h1>Ryan Peterman</h1>
-
-        <p>Staff Software Engineer @ Instagram</p>
+        <p
+          className="tagline"
+          style={{
+            marginTop: '0.35rem',
+            fontSize: '1.05rem',
+            lineHeight: 1.6,
+            color: '#bfbfbf',
+          }}
+        >
+          AI/ML{' '}
+          <a
+            href="https://about.facebook.com/meta/"
+            target="_blank"
+            rel="noopener"
+            title="Meta"
+            style={{ color: 'inherit', textDecoration: 'underline dotted' }}
+          >
+            @Meta
+          </a>
+          , ex-Staff engineer{' '}
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener"
+            title="Instagram"
+            style={{ color: 'inherit', textDecoration: 'underline dotted' }}
+          >
+            @instagram
+          </a>{' '}
+          • Building a newsletter, podcast &amp; hardware side project
+        </p>
         <div>
           &nbsp;{' '}
           <a
@@ -92,4 +121,3 @@ export default function HomePage() {
     </main>
   );
 }
-
