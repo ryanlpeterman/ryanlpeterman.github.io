@@ -37,11 +37,7 @@ export default function RootLayout({ children }) {
                     <li>
                       <a href="/posts/">Posts</a>
                     </li>
-                    <li>
-                      <a href="https://docs.google.com/document/d/1NDrXulRFSwLN1vn-Eed-phNCkZ2mRsFdERlXtoCvyI0/">
-                        Travel Recs
-                      </a>
-                    </li>
+                    {/** Travel Recs link removed */}
                   </ul>
                 </nav>
                 <span className="menu-trigger">

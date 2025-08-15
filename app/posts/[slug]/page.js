@@ -7,6 +7,7 @@ export async function generateStaticParams() {
 }
 
 export const dynamicParams = false;
+export const dynamic = 'error';
 
 export default async function PostPage({ params }) {
   const { slug } = params;
