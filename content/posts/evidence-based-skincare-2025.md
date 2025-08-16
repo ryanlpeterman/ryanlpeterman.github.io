@@ -45,4 +45,3 @@ date: 2025-03-26
 <li>(Every Few Days) Paula’s Choice Skin Perfecting 2% BHA (<strong>Salicylic Acid, Green Tea Polyphenols</strong>)</li>
 <li>(Every Other Day) Curology (<strong>Tretinoin, Azelaic Acid</strong>)</li>
 </ul>
-<p>Hope my research is helpful. If I missed something, let me know on Twitter/X <a href='https://twitter.com/ryanlpeterman'>@ryanlpeterman</a></p>
