@@ -18,7 +18,7 @@ export default function HomePage() {
             AI/ML @Meta, ex-Staff engineer @instagram building:
           </span>
           <span style={{ display: 'block' }}>
-            Newsletter →{' '}
+            Newsletter (100k+ subs) →{' '}
             <a
               href="https://www.developing.dev/"
               target="_blank"
@@ -27,8 +27,7 @@ export default function HomePage() {
               title="Substack"
               style={{
                 display: 'inline-flex',
-                verticalAlign: 'middle',
-                color: '#bfbfbf',
+                verticalAlign: 'middle'
               }}
             >
               <svg
@@ -46,7 +45,7 @@ export default function HomePage() {
             </a>
           </span>
           <span style={{ display: 'block' }}>
-            Podcast →{' '}
+            Podcast (posting weekly) →{' '}
             <span style={{ display: 'inline-flex', gap: 10, verticalAlign: 'middle' }}>
               <a
                 href="https://www.youtube.com/ryanlpeterman"
@@ -54,7 +53,7 @@ export default function HomePage() {
                 rel="noopener"
                 aria-label="YouTube"
                 title="YouTube"
-                style={{ display: 'inline-flex' }}
+                style={{ display: 'inline-flex', color: '#FF0000' }}
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M23.5 6.203a3 3 0 0 0-2.116-2.116C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.384.587A3 3 0 0 0 .5 6.203C0 8.086 0 12 0 12s0 3.914.5 5.797a3 3 0 0 0 2.116 2.116C4.5 20.5 12 20.5 12 20.5s7.5 0 9.384-.587A3 3 0 0 0 23.5 17.797C24 15.914 24 12 24 12s0-3.914-.5-5.797zM9.75 15.5v-7l6 3.5-6 3.5z" />
@@ -87,7 +86,7 @@ export default function HomePage() {
             </span>
           </span>
           <span style={{ display: 'block' }}>
-            Hardware side project →{' '}
+            Hardware side project (prototype in progress) →{' '}
             <a
               href="https://read.compose.llc/"
               target="_blank"
