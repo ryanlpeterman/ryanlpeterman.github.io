@@ -45,7 +45,7 @@ export default function HomePage() {
             </a>
           </span>
           <span style={{ display: 'block' }}>
-            Podcast (posting weekly) →{' '}
+            <strong>Podcast (posting weekly) →</strong>{' '}
             <span style={{ display: 'inline-flex', gap: 10, verticalAlign: 'middle' }}>
               <a
                 href="https://www.youtube.com/ryanlpeterman"
