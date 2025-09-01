@@ -189,7 +189,7 @@ export default function HomePage() {
           </a>
           
           <a
-            href="https://www.tiktok.com/@petermanpod"
+            href="https://www.tiktok.com/@ryanlpeterman"
             target="_blank"
             rel="noopener"
             title="TikTok"
