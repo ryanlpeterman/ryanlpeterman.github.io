@@ -1,6 +1,9 @@
+import './globals.css';
+
 export const metadata = {
   title: 'Ryan Peterman',
-  description: 'Personal website and blog',
+  description:
+    'Ryan Peterman — AI/ML engineer, writer of The Peterman Post, host of The Peterman Pod. All my links in one place.',
   metadataBase: new URL('https://www.ryanlpeterman.dev'),
 };
 
@@ -9,47 +12,21 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#252627" />
+        <meta name="theme-color" content="#0f0e0d" />
+        <link rel="icon" href="/favicon.ico" sizes="32x32 64x64" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
-          href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"
-          rel="stylesheet"
-          type="text/css"
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
         />
-        <link rel="stylesheet" href="/main.css" />
-        <link rel="stylesheet" href="/overrides.css" />
-        <link rel="icon" href="/favicon.ico" />
-        <script src="/bundle.min.js" defer></script>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap"
+          rel="stylesheet"
+        />
       </head>
-      <body>
-        <div className="container">
-          <header className="header">
-            <span className="header__inner">
-              <a href="/" style={{ textDecoration: 'none' }}>
-                <div className="logo">
-                  <span className="logo__mark">&gt;</span>
-                  <span className="logo__text">$ cd /home/</span>
-                  <span className="logo__cursor" />
-                </div>
-              </a>
-
-              <span className="header__right">
-                <nav className="menu">
-                  <ul className="menu__inner">
-                    <li>
-                      <a href="/posts/">Posts</a>
-                    </li>
-                    {/** Travel Recs link removed */}
-                  </ul>
-                </nav>
-              </span>
-            </span>
-          </header>
-
-          <div className="content">{children}</div>
-
-          <footer className="footer"></footer>
-        </div>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

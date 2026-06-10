@@ -1,0 +1,396 @@
+/* ------------------------------------------------------------------ */
+/* ryanlpeterman.dev — dark editorial link-in-bio                      */
+/* ------------------------------------------------------------------ */
+
+:root {
+  --bg: #0f0e0d;
+  --surface: #161513;
+  --surface-hover: #1d1b18;
+  --border: #292621;
+  --border-hover: #3b362d;
+  --text: #f2efe9;
+  --text-secondary: #a8a299;
+  --text-tertiary: #6b665e;
+  --accent: #e0a458;
+  --page-width: 560px;
+  --font-display: 'Instrument Serif', Georgia, 'Times New Roman', serif;
+  --font-body: 'Schibsted Grotesk', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Soft amber glow rising from the top, fixed behind everything */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background: radial-gradient(
+    ellipse 70% 45% at 50% -8%,
+    rgba(224, 164, 88, 0.09),
+    transparent 70%
+  );
+}
+
+/* Fine film grain */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: rgba(224, 164, 88, 0.3);
+}
+
+/* ------------------------------------------------------------------ */
+/* Entrance                                                            */
+/* ------------------------------------------------------------------ */
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rise {
+  animation: rise 600ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise {
+    animation: none;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Profile                                                             */
+/* ------------------------------------------------------------------ */
+
+.page {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 64px 22px 72px;
+  text-align: center;
+}
+
+.avatar {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border-hover);
+  outline: 6px solid rgba(224, 164, 88, 0.06);
+}
+
+.profile-name {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  margin: 18px 0 6px;
+}
+
+.profile-bio {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 15px;
+}
+
+.profile-bio .dot {
+  color: var(--text-tertiary);
+  margin: 0 6px;
+}
+
+.social-row {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.social-row a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: background 140ms ease, transform 140ms ease;
+}
+
+.social-row a:hover {
+  background: var(--surface-hover);
+  transform: translateY(-2px);
+}
+
+/* ------------------------------------------------------------------ */
+/* Link rows                                                           */
+/* ------------------------------------------------------------------ */
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.link-button {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 16px 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  text-decoration: none;
+  transition: background 140ms ease, border-color 140ms ease,
+    transform 140ms ease;
+}
+
+.link-button:hover {
+  background: var(--surface-hover);
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+}
+
+.link-index {
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.08em;
+  color: var(--text-tertiary);
+  flex-shrink: 0;
+}
+
+.link-button:hover .link-index {
+  color: var(--accent);
+}
+
+.link-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.link-title {
+  display: block;
+  font-size: 15.5px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.link-sub {
+  display: block;
+  margin-top: 1px;
+  font-size: 13px;
+  color: var(--text-tertiary);
+}
+
+.link-arrow {
+  flex-shrink: 0;
+  color: var(--text-tertiary);
+  font-size: 15px;
+  transition: transform 140ms ease, color 140ms ease;
+}
+
+.link-button:hover .link-arrow {
+  color: var(--accent);
+  transform: translate(2px, -2px);
+}
+
+/* Multi-platform row (e.g. the podcast). A dedicated row-level link
+   covers the whole row and mirrors the leftmost icon's destination;
+   the icons sit above it and keep their own destinations. */
+
+.link-button {
+  position: relative;
+}
+
+.row-link {
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+}
+
+.platform-icons {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.platform-icon {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  transition: background 140ms ease, transform 140ms ease;
+}
+
+.platform-icon:hover {
+  background: rgba(255, 255, 255, 0.07);
+  transform: translateY(-2px);
+}
+
+/* ------------------------------------------------------------------ */
+/* Technical posts                                                     */
+/* ------------------------------------------------------------------ */
+
+.section-label {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 52px 0 10px;
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+
+.section-label::before,
+.section-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+/* About me bullets */
+
+.about-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.about-list li {
+  position: relative;
+  padding: 6px 0 6px 18px;
+}
+
+.about-list li::before {
+  content: '•';
+  position: absolute;
+  left: 2px;
+  color: var(--text-tertiary);
+}
+
+.about-list a {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-color: rgba(242, 239, 233, 0.3);
+  text-underline-offset: 3px;
+  transition: color 140ms ease;
+}
+
+.about-list a:hover {
+  color: var(--accent);
+}
+
+.post-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.post-links li {
+  padding: 9px 2px;
+  font-size: 14px;
+}
+
+.post-links li + li {
+  border-top: 1px solid rgba(41, 38, 33, 0.6);
+}
+
+.post-links a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 140ms ease;
+}
+
+.post-links a:hover {
+  color: var(--text);
+}
+
+.post-year {
+  color: var(--text-tertiary);
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+  margin-right: 8px;
+}
+
+.credibility {
+  margin-top: 3px;
+  font-size: 12.5px;
+  line-height: 1.7;
+  color: var(--text-tertiary);
+}
+
+.credibility a {
+  color: var(--text-tertiary);
+  text-decoration: underline;
+  text-decoration-color: rgba(107, 102, 94, 0.4);
+  text-underline-offset: 3px;
+}
+
+.credibility a:hover {
+  color: var(--accent);
+}
+
+/* ------------------------------------------------------------------ */
+
+@media (max-width: 480px) {
+  .page {
+    padding-top: 44px;
+  }
+
+  .profile-name {
+    font-size: 34px;
+  }
+
+  .link-button {
+    padding: 14px 16px;
+    gap: 14px;
+  }
+}
