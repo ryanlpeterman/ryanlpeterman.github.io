@@ -376,7 +376,7 @@ export default function HomePage() {
               quit my job
             </ExternalLink>{' '}
             to work on it full time. Interviewing top technical folks to
-            share their learnings with the industry.
+            share their learnings.
           </li>
           <li>
             I&apos;m also{' '}
