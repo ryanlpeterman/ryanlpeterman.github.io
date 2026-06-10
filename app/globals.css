@@ -125,7 +125,8 @@ a {
 .profile-bio {
   margin: 0;
   color: var(--text-secondary);
-  font-size: 15px;
+  /* Scales down on narrow phones so the first bio line stays on one line */
+  font-size: clamp(11.5px, 3.2vw, 15px);
 }
 
 .profile-bio .dot {
