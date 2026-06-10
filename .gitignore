@@ -19,3 +19,7 @@ pnpm-debug.log*
 # Env
 .env*
 
+
+# Local dev server logs/pids
+.next-dev*.log
+.next-dev*.pid
