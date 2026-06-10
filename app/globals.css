@@ -283,6 +283,10 @@ a {
   color: var(--text-tertiary);
 }
 
+.section-label-tight {
+  margin-top: 16px;
+}
+
 .section-label::before,
 .section-label::after {
   content: '';

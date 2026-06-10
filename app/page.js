@@ -389,7 +389,7 @@ export default function HomePage() {
       </div>
 
       <div className="rise" style={{ animationDelay: '640ms' }}>
-        <h2 className="section-label">Posts</h2>
+        <h2 className="section-label section-label-tight">Posts</h2>
         <ul className="post-links">
           {TECHNICAL_POSTS.map((post) => (
             <li key={post.url}>
